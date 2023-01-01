@@ -1,0 +1,47 @@
+@import url(../vendors/normalize.css);
+@import url(../vendors/fonts/inter.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/header/__lang/.css);
+@import url(../blocks/lead/lead.css);
+
+
+.root {
+  background-color: #2A2C2F;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+.page {
+  margin: 0 auto;
+}
+
+
+.lead {
+  max-width: 984px;
+  margin: 0 auto;
+}
+.lead__title {
+  color: #fff;
+  margin: 0 auto;
+  max-width: 720px;
+  font-size: 96px;
+  font-weight: 700;
+  text-align: center;
+}
+.lead__subtitle {
+  color: #fff;
+  margin: 0 auto;
+  max-width: 640px;
+  text-align: center;
+  font-size: 30px;
+}
+.lead__image {
+  background-image: url('../images/lead-polka.jpg');
+  width: 100%;
+  object-fit: cover;
+  margin: 64px 0 0 0;
+}
