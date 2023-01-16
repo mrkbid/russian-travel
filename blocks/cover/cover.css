@@ -1,0 +1,18 @@
+
+.cover {
+  margin: 92px 48px 0;
+  max-width: 1184px;
+}
+
+@media (max-width: 1024px) {
+  .cover {
+      max-width: 100%;
+      margin: 88px 0 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover {
+      margin: 0;
+  }
+}

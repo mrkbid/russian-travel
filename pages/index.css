@@ -1,47 +1,50 @@
 @import url(../vendors/normalize.css);
 @import url(../vendors/fonts/inter.css);
+@import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/header/__lang/.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-links/header__lang-links.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 @import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image-block/lead__image-block.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list-item/intro__list-item.css);
+@import url(../blocks/intro/__span/intro__span.css);
 
 
-.root {
-  background-color: #2A2C2F;
-  color: #fff;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  text-rendering: optimizeLegibility;
-}
-.page {
-  margin: 0 auto;
-}
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+
+@import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__text/cover__text.css);
+@import url(../blocks/__link/cover__link.css);
+@import url(../blocks/__title/cover__title.css);
+@import url(../blocks/__subtitle/cover__subtitle.css);
 
 
-.lead {
-  max-width: 984px;
-  margin: 0 auto;
-}
-.lead__title {
-  color: #fff;
-  margin: 0 auto;
-  max-width: 720px;
-  font-size: 96px;
-  font-weight: 700;
-  text-align: center;
-}
-.lead__subtitle {
-  color: #fff;
-  margin: 0 auto;
-  max-width: 640px;
-  text-align: center;
-  font-size: 30px;
-}
-.lead__image {
-  background-image: url('../images/lead-polka.jpg');
-  width: 100%;
-  object-fit: cover;
-  margin: 64px 0 0 0;
-}
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__link/menu__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+
+
+
+.red {border: 1px solid red;}
