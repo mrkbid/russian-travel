@@ -9,9 +9,15 @@
 }
 
 
-@media (min-width:320px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .intro__text {
-    max-width: 100%;
-    margin: 0 0 34px;
+    max-width: 720px;
+    width: 90vw;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro__text {
+      width: 288px;
   }
 }

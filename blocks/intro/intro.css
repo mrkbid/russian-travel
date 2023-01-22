@@ -20,7 +20,7 @@
 
 @media (max-width: 320px) {
   .intro {
-      margin: 0 16px 64px 16px;
+      margin: 64px 16px 0 16px;
       max-width: calc(100% - 32px);
   }
 }

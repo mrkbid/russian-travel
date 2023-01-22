@@ -8,24 +8,20 @@
 
 @media screen and (max-width: 1280px) {
 	.header {
-		padding-right: 48px;
-		padding-left: 48px;
+		margin: 28px 48px 0 48px;
 	}
 }
 
 @media screen and (max-width: 768px) {
 	.header {
-		padding-right: 24px;
-		padding-left: 24px;
+		margin: 24px 48px 0 24px;
 		width: calc(100% - 48px);
 	}
 }
 
 @media screen and (max-width: 320px) {
 	.header {
-		padding-right: 16px;
-		padding-left: 16px;
-		margin-top: 16px;
+		margin: 16px 16px 0;
 		width: calc(100% - 32px);
 	}
 }
