@@ -1,28 +1,29 @@
 .places {
+  display: grid;
+  margin: 92px auto;
+  color: #fff;
+  gap: 80px;
   max-width: 984px;
-  margin: 92px auto 0;
 }
 
 @media screen and (max-width: 1024px) {
   .places {
-    max-width: 928px;
+      margin: 88px auto 90px;
+      gap: 80px;
+      max-width: 928px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places {
     max-width: 720px;
-		margin-top: 88px;
+    gap: 72px 0;
   }
 }
-
 @media screen and (max-width: 320px) {
   .places {
-    width: 100%;
-    margin-top: 64px;
+
+      margin: 64px auto 0px;
+      gap: 50px;
   }
 }
-
-
-
-

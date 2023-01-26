@@ -5,8 +5,8 @@
 
 @media (max-width: 1024px) {
   .intro {
-      margin: 92px 48px 0 48px;
-      width: calc(100% - 96px);
+    margin: 92px 48px 0 48px;
+    max-width: calc(100% - 96px);
   }
 }
 
@@ -20,7 +20,7 @@
 
 @media (max-width: 320px) {
   .intro {
-      margin: 64px 16px 0 16px;
-      max-width: calc(100% - 32px);
+    margin: 64px 16px 0 16px;
+    max-width: calc(100% - 32px);
   }
 }

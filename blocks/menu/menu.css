@@ -9,9 +9,8 @@
 
 @media (max-width: 767px) {
   .menu {
-      display: flex;
-      flex-direction: column;
-      align-content: flex-start;
-      gap: 32px 0;
+    flex-direction: column;
+    align-content: flex-start;
+    gap: 32px 0;
   }
 }

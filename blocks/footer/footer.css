@@ -10,25 +10,23 @@
 
 @media (max-width: 1280px) {
   .footer {
-      max-width: calc(100% - 96px);
+    max-width: calc(100% - 96px);
   }
 }
 
 
 @media (max-width: 768px) {
   .footer {
-      max-width: calc(100% - 48px);
-      margin: 88px auto 24px;
-
+    max-width: calc(100% - 48px);
+    margin: 88px auto 24px;
   }
 }
 
 @media (max-width: 767px) {
   .footer {
-      margin: 64px 0 24px 16px;
-      flex-direction: column;
-      max-width: 186px;
-      justify-content: flex-start;
-      align-content: flex-start;
+    margin: 64px 0 24px 16px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
   }
 }
