@@ -43,18 +43,9 @@
 
 @media screen and (max-width: 320px) {
   .place__paragraph {
-      max-width: 283px;
+      max-width: 285px;
       padding: 0;
-  }
-  .place__paragraph:first-child {
-    margin: 1px auto 25px;
-  }
-  .place__paragraph:last-child {
-    margin: 0 auto 0px;
-
-
-
-
+      text-align: left;
   }
 }
 

@@ -27,15 +27,16 @@
       max-width: 320px;
       grid-template-columns: 100%;
       gap: 0;
-
   }
 }
 
 
 @media screen and (max-width: 320px) {
+  .place:first-child {
+    margin: 1px auto 28px;
+  }
   .place {
-    margin-bottom: 0;
-
+    margin: 1px auto 1px;
   }
 }
 

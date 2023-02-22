@@ -17,8 +17,3 @@
   }
 }
 
-@media (max-width: 320px) {
-  .cover__title {
-    margin-top: 33px;
-  }
-}
