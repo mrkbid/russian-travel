@@ -17,7 +17,6 @@
   aspect-ratio: 1.6 / 1;
 }
 
-
 .cover__link::before {
   position: absolute;
   content: '';

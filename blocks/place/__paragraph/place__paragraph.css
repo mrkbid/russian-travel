@@ -9,43 +9,27 @@
 }
 
 .place__paragraph:last-child {
-  margin: 0;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
   .place__paragraph  {
-      font-size: calc(16px + (2 + 2 * 0.7) * ((100vw - 768px) / 768));
-      line-height: 173%;
-      padding-right: 16px;
+    padding-right: 16px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__paragraph {
-      font-size: 16px;
-      line-height: 162%;
-      padding-right: 0;
-      margin: 1px 0 26px 0;
+    font-size: 16px;
+    line-height: 26.08px;
+    padding-right: 0;
   }
 }
 
 @media screen and (max-width: 470px) {
   .place__paragraph {
-      width: calc(100% - 16px);
-      margin: 0 auto 25px;
-      padding-right: 0;
-  }
-
-  .place__paragraph:last-child {
-      margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place__paragraph {
-      max-width: 285px;
-      padding: 0;
-      text-align: left;
+    max-width: calc(100% - 16px);
+    padding: 0 16px;
   }
 }
 
